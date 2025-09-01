@@ -1,41 +1,37 @@
-# Prerequisites
-*.d
+# OS generated files
+.DS_Store
+Thumbs.db
 
-# Compiled Object files
-*.slo
-*.lo
-*.o
-*.obj
+# Temporary files
+*.swp
+*~
+*.bak
+*.tmp
 
-# Precompiled Headers
-*.gch
-*.pch
+# Log files
+*.log
 
-# Linker files
-*.ilk
+# Docker-related files
+**/docker-compose.override.yml
+**/docker-compose.override.yaml
+**/Dockerfile.*
 
-# Debugger Files
-*.pdb
+# Docker build cache
+docker-compose.override.yml
+docker-compose.override.yaml
+docker-compose.*.yml
+docker-compose.*.yaml
 
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
+# Ignore built images (optional, usually not checked in)
+*.tar
+*.img
 
-# Fortran module files
-*.mod
-*.smod
+# IDE / editor files
+.vscode/
+.idea/
+*.code-workspace
 
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
-
-# Executables
-*.exe
-*.out
-*.app
-
-# debug information files
-*.dwo
+# Environment files (if used)
+.env
+.env.local
+.env.*.local
