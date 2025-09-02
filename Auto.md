@@ -1,0 +1,6 @@
+# Automatic Mode
+New mode for automated installation of new packages whenever they become available.  Requires the following:
+* Our own package repo
+* Crontab entry for automated polling
+* Whenever else...
+* Waiting for another clever idea...
